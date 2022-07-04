@@ -12,16 +12,18 @@ Here's an incomplete list of all the python libraries:
 - MFA - Montreal Force Alignment (2.0). (Separate python environment encouraged). 
 
 conda config --add channels conda-forge
+
 conda install montreal-forced-aligner
 
 After installation, download the french model and dictionary: 
 
 mfa models download acoustic french_mfa
+
 mfa models download dictionary french_mfa
 
 - Torch (1.11.0) - pip install torch
 
-- Transformers (4.20.0) - from HuggingFace. pip install tpipransformers
+- Transformers (4.20.0) - from HuggingFace. pip install transformers
 
 
 ## Analysis pipeline
@@ -37,23 +39,31 @@ mfa models download dictionary french_mfa
 - (Separate python environment encouraged) Run maf to validate and align transcriptions to wav files. 
 
 Example: 
+
 mfa validate ./wavfiles french_mfa french_mfa
+
 mfa align --clean --beam 100 ./wavfiles french_mfa french_mfa ./wavfiles/aligned 
+
 
 - Open each wav and textGrid file with Praat and revise for inconsistencies and misalignments (if you want a complete annotation of all the phonemes, that's going to take some work...)
 
-- Save the revised textGrid files to the ./revised subfolder
+- Save the revised textGrid files to the ./revised subfolder. Change the file encoding from UFT-16 to UtF-8 (using Kate, Notepad++ or your favourite plain text editor)
 
 - Run embed_main.py
 
 - There should be now a file named embed.mat in the data folder
 
     The structure is as follows:
-        - A n-by-1 cell array with each filename
-        - A n-by-1 cell array with morphoeme markings. Each cell contains a timepoints-by-2 matrix. onset and offset are the columns
-        - A cell array with morphemes. Each cell contains a char-array of timepoints-by-width, where width is the max number of characters (uses right-padding). Ideally should be one... but maybe not
-        - A cell array with prediction "probabilities". Each cell contains a timepoints-by-3 matrix: onset, offset and "prob" and the columns.
-        - A n-by-1 cell array with the text markings. Each cell contains a char-array of timepoints-by-width, where width is the max number of characters (uses right-padding).
+    
+    - A n-by-1 cell array with each filename
+    
+    - A n-by-1 cell array with morphoeme markings. Each cell contains a timepoints-by-2 matrix. onset and offset are the columns
+    
+    - A cell array with morphemes. Each cell contains a char-array of timepoints-by-width, where width is the max number of characters (uses right-padding). Ideally should be one... but maybe not
+    
+    - A cell array with prediction "probabilities". Each cell contains a timepoints-by-3 matrix: onset, offset and "prob" and the columns.
+    
+    - A n-by-1 cell array with the text markings. Each cell contains a char-array of timepoints-by-width, where width is the max number of characters (uses right-padding).
         
 To obtain pitch and forman data from the audio files:
 
