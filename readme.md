@@ -38,7 +38,7 @@ mfa models download dictionary french_mfa
 
 Example: 
 mfa validate ./wavfiles french_mfa french_mfa
-mfa align --clean ./wavfiles french_mfa french_mfa ./wavfiles/aligned
+mfa align --clean --beam 100 ./wavfiles french_mfa french_mfa ./wavfiles/aligned 
 
 - Open each wav and textGrid file with Praat and revise for inconsistencies and misalignments (if you want a complete annotation of all the phonemes, that's going to take some work...)
 

@@ -82,10 +82,10 @@ item []:
             text = "de" 
         intervals [18]:
             xmin = 4.45 
-            xmax = 4.92 
+            xmax = 4.91 
             text = "sommets" 
         intervals [19]:
-            xmin = 4.92 
+            xmin = 4.91 
             xmax = 5.62 
             text = "" 
         intervals [20]:
@@ -702,10 +702,10 @@ item []:
             text = "la" 
         intervals [173]:
             xmin = 55.76 
-            xmax = 55.97 
+            xmax = 55.96 
             text = "plus" 
         intervals [174]:
-            xmin = 55.97 
+            xmin = 55.96 
             xmax = 56.71 
             text = "venteuse" 
         intervals [175]:
@@ -1102,10 +1102,10 @@ item []:
             text = "quoi" 
         intervals [273]:
             xmin = 88.45 
-            xmax = 88.68 
+            xmax = 88.67 
             text = "une" 
         intervals [274]:
-            xmin = 88.68 
+            xmin = 88.67 
             xmax = 89.29 
             text = "bouloche" 
         intervals [275]:
@@ -2046,10 +2046,10 @@ item []:
             text = "de" 
         intervals [509]:
             xmin = 164.7 
-            xmax = 165.09 
+            xmax = 165.14 
             text = "dronda" 
         intervals [510]:
-            xmin = 165.09 
+            xmin = 165.14 
             xmax = 165.21 
             text = "" 
         intervals [511]:
@@ -2926,10 +2926,10 @@ item []:
             text = "comme" 
         intervals [729]:
             xmin = 233.61 
-            xmax = 233.67 
+            xmax = 233.68 
             text = "à" 
         intervals [730]:
-            xmin = 233.67 
+            xmin = 233.68 
             xmax = 234.19 
             text = "dronda" 
         intervals [731]:
@@ -3188,10 +3188,10 @@ item []:
             text = "m" 
         intervals [50]:
             xmin = 4.76 
-            xmax = 4.92 
+            xmax = 4.91 
             text = "ɛ" 
         intervals [51]:
-            xmin = 4.92 
+            xmin = 4.91 
             xmax = 5.62 
             text = "" 
         intervals [52]:
@@ -3240,10 +3240,10 @@ item []:
             text = "a" 
         intervals [63]:
             xmin = 6.67 
-            xmax = 6.75 
+            xmax = 6.74 
             text = "ʎ" 
         intervals [64]:
-            xmin = 6.75 
+            xmin = 6.74 
             xmax = 6.93 
             text = "i" 
         intervals [65]:
@@ -4880,10 +4880,10 @@ item []:
             text = "l" 
         intervals [473]:
             xmin = 55.87 
-            xmax = 55.97 
+            xmax = 55.96 
             text = "y" 
         intervals [474]:
-            xmin = 55.97 
+            xmin = 55.96 
             xmax = 56.13 
             text = "v" 
         intervals [475]:
@@ -5100,10 +5100,10 @@ item []:
             text = "m" 
         intervals [528]:
             xmin = 63.21 
-            xmax = 63.28 
+            xmax = 63.29 
             text = "l" 
         intervals [529]:
-            xmin = 63.28 
+            xmin = 63.29 
             xmax = 63.33 
             text = "e" 
         intervals [530]:
@@ -5988,10 +5988,10 @@ item []:
             text = "y" 
         intervals [750]:
             xmin = 88.48 
-            xmax = 88.68 
+            xmax = 88.67 
             text = "n" 
         intervals [751]:
-            xmin = 88.68 
+            xmin = 88.67 
             xmax = 89.29 
             text = "spn" 
         intervals [752]:
@@ -6368,10 +6368,10 @@ item []:
             text = "ɔ" 
         intervals [845]:
             xmin = 99.17 
-            xmax = 99.28 
+            xmax = 99.29 
             text = "k" 
         intervals [846]:
-            xmin = 99.28 
+            xmin = 99.29 
             xmax = 99.32 
             text = "y" 
         intervals [847]:
@@ -6524,10 +6524,10 @@ item []:
             text = "ɔ̃" 
         intervals [884]:
             xmin = 103.74 
-            xmax = 103.85 
+            xmax = 103.86 
             text = "ʒ" 
         intervals [885]:
-            xmin = 103.85 
+            xmin = 103.86 
             xmax = 103.95 
             text = "e" 
         intervals [886]:
@@ -6684,10 +6684,10 @@ item []:
             text = "ə" 
         intervals [924]:
             xmin = 108.21 
-            xmax = 108.28 
+            xmax = 108.27 
             text = "k" 
         intervals [925]:
-            xmin = 108.28 
+            xmin = 108.27 
             xmax = 108.35 
             text = "ɔ̃" 
         intervals [926]:
@@ -8464,10 +8464,10 @@ item []:
             text = "ə" 
         intervals [1369]:
             xmin = 164.7 
-            xmax = 165.09 
+            xmax = 165.14 
             text = "spn" 
         intervals [1370]:
-            xmin = 165.09 
+            xmin = 165.14 
             xmax = 165.21 
             text = "" 
         intervals [1371]:
@@ -9456,10 +9456,10 @@ item []:
             text = "ɥ" 
         intervals [1617]:
             xmin = 190.97 
-            xmax = 191.02 
+            xmax = 191.03 
             text = "i" 
         intervals [1618]:
-            xmin = 191.02 
+            xmin = 191.03 
             xmax = 191.1 
             text = "v" 
         intervals [1619]:
@@ -10492,10 +10492,10 @@ item []:
             text = "ə" 
         intervals [1876]:
             xmin = 219.84 
-            xmax = 219.95 
+            xmax = 219.96 
             text = "v" 
         intervals [1877]:
-            xmin = 219.95 
+            xmin = 219.96 
             xmax = 220.05 
             text = "i" 
         intervals [1878]:
@@ -10956,10 +10956,10 @@ item []:
             text = "m" 
         intervals [1992]:
             xmin = 233.61 
-            xmax = 233.67 
+            xmax = 233.68 
             text = "a" 
         intervals [1993]:
-            xmin = 233.67 
+            xmin = 233.68 
             xmax = 234.19 
             text = "spn" 
         intervals [1994]:

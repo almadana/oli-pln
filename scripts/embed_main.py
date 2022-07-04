@@ -116,7 +116,7 @@ words=np.empty(filenames.shape,dtype="object")
 phon_markings=np.empty(filenames.shape,dtype="object")
 
 
-sliding=10 #sliding parameter. if 0, will use ALL previous context... don't think it can handle more than 100... see CamemBERT documentation for max sentence size...
+sliding=50 #sliding parameter. if 0, will use ALL previous context... don't think it can handle more than 100... see CamemBERT documentation for max sentence size...
 
 
 for i,file in enumerate(filenames):
